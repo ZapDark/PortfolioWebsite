@@ -17,14 +17,6 @@ body {
   margin-bottom: 60px;
 }
 
-.dropdown-menu {
-    background-color: darkgray;
-}
-
-.dropdown-item {
-   color: gray;
-}
-
 .navbar-dark {
     background-color: #8a2be2;
     outline-style: solid;
