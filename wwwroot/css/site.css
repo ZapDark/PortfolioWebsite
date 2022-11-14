@@ -2,7 +2,7 @@ html {
   font-size: 14px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: md) {
   html {
     font-size: 16px;
   }
@@ -14,19 +14,20 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background-color: #9567E0;
 }
 
 .navbar-dark {
-    background-color: #8a2be2;
+    background-color: #6F3096;
     outline-style: solid;
-    outline-color: #e4cef8;
+    outline-color: #56B6C4;
 }
 
 .footer {
-    background-color: #8a2be2;
+    background-color: #6F3096;
     outline-style: solid;
-    outline-color: #e4cef8;
+    outline-color: #56B6C4;
 }
 
 footer a {
@@ -34,4 +35,42 @@ footer a {
     background-repeat: no-repeat !important;
     text-decoration: none !important;
     color: white !important;
+}
+
+.project-inner {
+    color: #56B6C4;
+    padding: 20px;
+    margin-top: 35px;
+    outline: solid;
+    background-color: #6F3096;
+    outline-color: #56B6C4;
+    border-radius: 5px;
+}
+
+.project-top {
+    display: flex;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.project-tech-list {
+    display: flex;
+    align-items: flex-end;
+    padding: 0px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.project-inner li {
+    margin-right: 15px;
+}
+
+.project-links {
+    align-items: flex-end;
+}
+
+.fa-github {
+    color: #e4cef8;
 }
